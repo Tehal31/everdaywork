@@ -1,0 +1,15 @@
+s={10,20,30,40,50}
+m={1,2,3,4,5,40,50}
+print(s)
+f=frozenset(s)
+print(type(f))
+s.add(34)
+print(s)
+s.pop()
+print(s)
+s.remove(20)
+print(s)
+l=s.copy()
+print(l)
+z=s.difference(m)
+print(z)
